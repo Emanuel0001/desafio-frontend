@@ -246,7 +246,7 @@ span {
 
 .rectangle {
   display: table;
-  width: 550px;
+  width: 500px;
   height: 260px;
   left: 1px;
   background: #cce4fd;
