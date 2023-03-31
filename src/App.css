@@ -198,10 +198,9 @@ color: #000000;
 
 }
 .container-4 {
-  display: block ruby;
+  display: flex;
 flex-direction: row;
 justify-content: center;
-align-items: center;
  background-color:  #F6F2F2;
  height: 900px;
  z-index: 1;
