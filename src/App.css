@@ -232,6 +232,7 @@ display: block;
   margin-bottom: 100px;
 }
 .rectangle {
+  display: table;
   width: 550px;
   height: 260px;
   left: 1px;
@@ -286,7 +287,7 @@ margin-left: 50px;
 border-left: 55px solid transparent;
 border-right: 55px solid transparent;
 border-top: 42px solid #cce4fd;
-margin-top: 39px;
+margin-top: 36px;
 }
 
 .container-perguntas {
