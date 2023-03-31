@@ -18,7 +18,7 @@ function App() {
       </div>
       <div className='container'>
         <div className='title'>
-          <p>Faça como o Sr. Bosco, receba o dinheiro
+          <p>Faça como o Sr. Francisco, receba o dinheiro
             do seu precatório e <span>viva a vida que sempre sonhou.</span></p>
         </div>
         <div className='youtube-video'>
