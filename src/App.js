@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import iphone from './imagens/mobile.png'
+import selo from './imagens/seloSegurança.png'
 import garotoPropaganda from './imagens/coPrecato.png'
 import client from './imagens/client.png'
 import tamplateYoutube from './imagens/youtube.jpg'
@@ -161,6 +162,9 @@ function App() {
           </div>
           <div className='button'>
             <button className='button-1' id='button-final' >Quero antecipar com segurança</button>
+          </div>
+          <div className='selo'>
+            <img src={selo}/>
           </div>
         </div>
       </div>
