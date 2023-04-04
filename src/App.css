@@ -932,8 +932,8 @@ span {
     margin-top: 100px;
     position: relative;
     z-index: -1;
-    height: 416px;
-    margin-left: 5%;
+    height: 508px;
+    margin-left: 1%;
   }
 
   .section-right {
@@ -1097,9 +1097,9 @@ span {
   }
 
   .paragraphs p {
-    width: 100%;
+    width: 80%;
     font-family: 'Poppins';
-    font-size: 24px;
+    font-size: 21px;
     line-height: 30px;
     text-align: center;
     display: block;
@@ -1108,7 +1108,7 @@ span {
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 50px;
   }
 
   .container-section-final {
