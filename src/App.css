@@ -1073,6 +1073,12 @@ span {
     line-height: 30px;
     color: #18191F;
   }
+  .footer {
+    width: 500px;
+  }
+  .title {
+    width: 500px;
+  }
   .menu {
   height: 80px;
   width: 500px;
