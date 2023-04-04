@@ -22,7 +22,7 @@ function App() {
             do seu precatório e <span>viva a vida que sempre sonhou.</span></p>
         </div>
         <div className='youtube-video'>
-        <iframe width="765" height="351" src="https://www.youtube.com/embed/F7CeVA365LY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/F7CeVA365LY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div className='button'>
           <button className='button-1' id='idButton'>Quero antecipar com segurança</button>
@@ -70,7 +70,7 @@ function App() {
       <div className='container-4'>
         <div className='components'>
           <div className='component'>
-            <div className='rectangle'>
+            <div className='rectangle' id="rectangle">
               <img className='image-rectangle' src={client}></img>
               <h1>Albino Noleto dos Santos</h1>
               <h2><ImLocation2 color='#24976B' size={20}/>Valparaíso de Goiás/GO</h2>
