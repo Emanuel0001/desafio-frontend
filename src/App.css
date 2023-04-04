@@ -939,7 +939,7 @@ span {
   .section-right {
     display: inline-block;
     position: absolute;
-    width: 40%;
+    width: 60%;
     height: 600px;
   }
 
@@ -992,7 +992,7 @@ span {
   }
 
   #div-title {
-    width: 100%;
+    width: 500px;
     height: 150px;
     background-color: #F6F2F2;
     font-family: 'Poppins';
@@ -1197,5 +1197,8 @@ span {
     width: 500px;
     display: block;
     height: 600px;
+  }
+  .container-title {
+  width: 500px;
   }
 }
