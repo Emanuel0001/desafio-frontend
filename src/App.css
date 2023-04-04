@@ -1073,6 +1073,25 @@ span {
     line-height: 30px;
     color: #18191F;
   }
+  .menu {
+  height: 80px;
+  width: 500px;
+  }
+  .container { 
+    width: 500px;
+  }
+  .container-2 {
+    width: 500px;
+  }
+  .container-perguntas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #2EC5CE;
+    height: 1400px;
+    width: 500px;
+  }
 
   .perguntas p {
     padding: 11px;
@@ -1116,6 +1135,7 @@ span {
     flex-direction: row;
     justify-content: center;
     height: 543px;
+    width: 500px;
   }
 
   .left img {
@@ -1140,7 +1160,7 @@ span {
   .container-3 {
     margin-top: 50px;
     height: 800px;
-    width: 100%;
+    width: 500px;
     display: grid;
     flex-direction: row;
     justify-content: center;
