@@ -48,7 +48,6 @@ function App() {
         <div className='bloco-centro'>
           <div className='section-left'>
             <img src={iphone}/>
-            <img src={imagemCentro}></img>
           </div>
           <div className='section-right'>
             <div className='bloco-text'>
