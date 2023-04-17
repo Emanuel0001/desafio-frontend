@@ -280,9 +280,8 @@ span {
 .image-rectangle {
   width: 115px;
   height: 93px;
-  background: #cce4fd;
   border-radius: 50%;
-  float: inline-end;
+  float: right;
   margin-right: 36px;
   margin-top: -30px;
 }
@@ -297,7 +296,7 @@ span {
   line-height: 22px;
   color: #000000;
   margin-top: -18px;
-}
+  }
 
 .polygon {
   width: 0;
@@ -307,6 +306,7 @@ span {
   border-right: 55px solid transparent;
   border-top: 42px solid #cce4fd;
   margin-top: 17px;
+  display: none;
 }
 
 .container-perguntas {
@@ -315,7 +315,7 @@ span {
   justify-content: center;
   align-items: center;
   background-color: #2EC5CE;
-  height: 1400px;
+  height: 1550px;
   width: 100%;
 }
 
@@ -323,10 +323,8 @@ span {
   width: 80%;
   left: 4px;
   top: 2px;
-  background: #FFFFFF;
   border-radius: 30px;
   margin-bottom: 20px;
-  height: 220px;
 }
 
 .section-perguntas {
@@ -348,16 +346,24 @@ span {
   font-size: 26px;
   line-height: 39px;
   color: #18191F;
+  background: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+
 }
 
 .perguntas p {
-  padding: 15px;
+  padding: 0px 18px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 19px;
   line-height: 28px;
   color: #000000;
+  background: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
 }
 
 .container-section-final {
@@ -373,8 +379,8 @@ span {
 }
 
 .left img {
-  margin-top: 184px;
-  height: 717px;
+    margin-top: 219px;
+    height: 681px;
 }
 
 .right {
@@ -740,7 +746,7 @@ span {
     height: 93px;
     background: #cce4fd;
     border-radius: 50%;
-    float: inline-end;
+    float: right;
     margin-right: 36px;
     margin-top: -30px;
   }
@@ -1023,7 +1029,7 @@ span {
     height: 88px;
     background: #cce4fd;
     border-radius: 50%;
-    float: inline-end;
+    float: right;
     margin-right: 36px;
     margin-top: -30px;
   }
