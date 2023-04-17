@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import iphone from './imagens/mobile.png'
+import iphone from './imagens/iphoneXS.png'
 import selo from './imagens/seloSegurança.png'
-import garotoPropaganda from './imagens/coPrecato.png'
+import garotoPropaganda from './imagens/garotoPropaganda.png'
 import client from './imagens/client.png'
 import client2 from './imagens/client2.jpeg'
 import client3 from './imagens/client3.jpeg'
 import client4 from './imagens/client4.jpeg'
-
+import imagemCentro from './imagens/imagemCentro.png'
 import tamplateYoutube from './imagens/youtube.jpg'
 import { AiFillInstagram } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
@@ -48,6 +48,7 @@ function App() {
         <div className='bloco-centro'>
           <div className='section-left'>
             <img src={iphone}/>
+            <img src={imagemCentro}></img>
           </div>
           <div className='section-right'>
             <div className='bloco-text'>
